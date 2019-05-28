@@ -16,7 +16,7 @@ body {
 
 .menu{
 	width: 80%;
-	height: 10%;
+	height: 12%;
 	font-size: 15px;
 	display: inline-block;
 	margin-left: 10%;
@@ -44,12 +44,18 @@ body {
 	width: 11%;
 }
 
-.footer{
-	float: bottom;
-	background-color: black;
-	width: 100%;
-	h
+.sub-menu{
+	display: inline-block;
+	border: 1px solid black;
+	background-color: white;
+	width: 70%;
+	height: 20%;
+	margin-left: 15%; 
+	margin-top: 5%;
+	color: black;
 }
+
+
 
 @keyframes slidy {
 0% { left: 0%; }
