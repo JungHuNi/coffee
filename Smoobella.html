@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Franobe & Smoobella</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="./css/coffeeBayCss.css">
+
+	<link href="https://fonts.googleapis.com/css?family=Noto+Serif&display=swap" rel="stylesheet"> <!-- Add font -->
+
+	<script type="text/javascript" src="./js/menu_util.js"></script>
+	<script type="text/javascript" src="./js/menuloader.js"></script>
+</head>
+<body>	
+	<!-- Wrapper box -->
+	<div class="wrapper">
+		<div class="menu">
+			<div class="menu-item" onclick="onChangeLocation('./mainpage.html')" style="background-image: url('./resource/LogoSlide/logo.PNG'); background-repeat: no-repeat; width: 30%;"></div>
+			<div class="menu-item menu-item-text" onclick="onChangeLocation('./NewMenu.html')">New Menu</div>
+			<div class="menu-item menu-item-text" onclick="onChangeLocation('./Coffee.html')">Coffee</div>
+			<div class="menu-item menu-item-text" onclick="onChangeLocation('./Latte.html')">Beverage</div>
+			<div class="menu-item menu-item-text" onclick="onChangeLocation('./Dessert.html')">Dessert</div>
+			<div class="menu-item menu-item-text" onclick="onChangeLocation('./Md.html')">MD</div>
+		</div>
+
+		<div class="sub-menu">
+			<!--<div class="Bsub-item" onclick="onChangeLocation('./Latte.html')">Basic Latte</div>
+			<div class="Bsub-item" onclick="onChangeLocation('./Smoobella.html')">Franobe/Smoobella</div>
+			<div class="Bsub-item" onclick="onChangeLocation('./etc.html')">Basic Latte</div>-->
+
+			<button class="curserPage" style="font-size: 2em" onclick="onChangeLocation('./Latte.html')"> < </button>
+			<button class="Bsub-item" onclick="onChangeLocation('./Latte.html')"> Basic Latte </button> 
+			<button class="Bsub-item" onclick="onChangeLocation('./Smoobella.html')" style="background-color: #FAEBC3;"> Franobe/Smoobella </button>
+			<button class="Bsub-item" onclick="onChangeLocation('./etc.html')" style="margin-right: 1%;"> Ade/Juice/Tea </button>
+			<button class="curserPage" style="font-size: 2em; margin-right: -2%;" onclick="onChangeLocation('./etc.html')"> > </button>
+		</div>
+
+		<!--<div id="menu2">-->
+
+		<!-- <script type="text/javascript">
+			load('Beverage', '../html report/', 3
+				, '2019PEACH&PLUMICEFLAKES.png'
+				, '2019GRAPEICEFLAKES.png'
+				, '2019STRAWBERRY ICE FLAKES.png'
+				, '2019RED BEANS ICE FLAKES.png'
+				, '2019PEACH&PLUM SNOW ICE FLAKES.png'
+				, '2019COOKIE&SNOWICEEFLAKES.png'
+				, '2019GEAPEICEFLAKESSNOWICEFLAKES.png'
+				, '2019STRAWBERRY & YOGURT SNOW ICE FLAKES.png'
+				, '2019RED BEANS SNOW ICE FLAKES.png'
+				, 'Espresso Franobe.png'
+				, 'Mocha Franibe.png'
+				, 'Caramel Franobe.png'
+				, 'Chocolate Franobe.png'
+				, 'Nuts Franobe.png'
+				, 'Green Tea Franobe.png'
+				, 'Java Chip Franobe.png'
+				, 'Cookie and Cream Franobe.png'
+				, 'Dark Chocolat Franobe.png'
+				, 'Strawberry Smoobella.png'
+				, 'Kiwi Smoobella.png'
+				, 'Mango Smoobella.png'
+				, 'Berry Berry Smoobella.png'
+				, 'Plain Yogur Smoobella.png'
+				, 'Strawberry Yogur Smoobella.png'
+				, 'Blueberry Yogur Smoobella.png'
+				);
+
+		</script> -->
+
+		<div class="img-print" onmouseover="openText('printID')" onmouseout="closeText('printID')" style="background: url(./resource/Beverage/FranobeSmoobella/1.png) center no-repeat;">
+			<div id="printID" class="printText"> 2019 피치플럼 빙수 </div>
+		</div>
+		<div class="img-print" onmouseover="openText('printID1')" onmouseout="closeText('printID1')" style="background: url(./resource/Beverage/FranobeSmoobella/2.png) center no-repeat;">
+			<div id="printID1" class="printText"> 2019 포도 빙수 </div>
+		</div>
+		<div class="img-print" onmouseover="openText('printID2')" onmouseout="closeText('printID2')" style="background: url(./resource/Beverage/FranobeSmoobella/3.png) center no-repeat;">
+			<div id="printID2" class="printText"> 2019 딸기 빙수 </div>
+		</div><br>
+		<div class="img-print" onmouseover="openText('printID3')" onmouseout="closeText('printID3')" style="background: url(./resource/Beverage/FranobeSmoobella/4.png) center no-repeat;">
+			<div id="printID3" class="printText"> 2019 곡물 팥빙수 </div>
+		</div>
+		<div class="img-print" onmouseover="openText('printID4')" onmouseout="closeText('printID4')" style="background: url(./resource/Beverage/FranobeSmoobella/5.png) center no-repeat;">
+			<div id="printID4" class="printText"> 2019 피치플럼 빙수(SNOW) </div>
+		</div>
+		<div class="img-print" onmouseover="openText('printID5')" onmouseout="closeText('printID5')" style="background: url(./resource/Beverage/FranobeSmoobella/6.png) center no-repeat;">
+			<div id="printID5" class="printText"> 2019 쿠키엔초코 빙수(SNOW) </div>
+		</div><br>
+		<div class="img-print" onmouseover="openText('printID6')" onmouseout="closeText('printID6')" style="background: url(./resource/Beverage/FranobeSmoobella/7.png) center no-repeat;">
+			<div id="printID6" class="printText"> 2019 포도 빙수(SNOW) </div>
+		</div>
+		<div class="img-print" onmouseover="openText('printID7')" onmouseout="closeText('printID7')" style="background: url(./resource/Beverage/FranobeSmoobella/8.png) center no-repeat;">
+			<div id="printID7" class="printText"> 2019 딸기요거트 빙수(SNOW) </div>
+		</div>
+		<div class="img-print" onmouseover="openText('printID8')" onmouseout="closeText('printID8')" style="background: url(./resource/Beverage/FranobeSmoobella/9.png) center no-repeat;">
+			<div id="printID8" class="printText"> 2019 곡물 팥빙수(SNOW) </div>
+		</div><br>
+		<div class="img-print" onmouseover="openText('printID9')" onmouseout="closeText('printID9')" style="background: url(./resource/Beverage/FranobeSmoobella/10.png) center no-repeat;">
+			<div id="printID9" class="printText"> Espresso Franobe </div>
+		</div>
+		<div class="img-print" onmouseover="openText('printID10')" onmouseout="closeText('printID10')" style="background: url(./resource/Beverage/FranobeSmoobella/11.png) center no-repeat;">
+			<div id="printID10" class="printText"> Mocha Franobe </div>
+		</div>
+		<div class="img-print" onmouseover="openText('printID11')" onmouseout="closeText('printID11')" style="background: url(./resource/Beverage/FranobeSmoobella/12.png) center no-repeat;">
+			<div id="printID11" class="printText"> Caramel Franobe </div>
+		</div><br>
+		<div class="img-print" onmouseover="openText('printID12')" onmouseout="closeText('printID12')" style="background: url(./resource/Beverage/FranobeSmoobella/13.png) center no-repeat;">
+			<div id="printID12" class="printText"> Chocolate Franobe </div>
+		</div>
+		<div class="img-print" onmouseover="openText('printID13')" onmouseout="closeText('printID13')" style="background: url(./resource/Beverage/FranobeSmoobella/14.png) center no-repeat;">
+			<div id="printID13" class="printText"> Nuts Franobe </div>
+		</div>
+		<div class="img-print" onmouseover="openText('printID14')" onmouseout="closeText('printID14')" style="background: url(./resource/Beverage/FranobeSmoobella/15.png) center no-repeat;">
+			<div id="printID14" class="printText"> Green Tea Franobe </div>
+		</div><br>
+		<div class="img-print" onmouseover="openText('printID15')" onmouseout="closeText('printID15')" style="background: url(./resource/Beverage/FranobeSmoobella/16.png) center no-repeat;">
+			<div id="printID15" class="printText"> Java chip Franobe </div>
+		</div>
+		<div class="img-print" onmouseover="openText('printID16')" onmouseout="closeText('printID16')" style="background: url(./resource/Beverage/FranobeSmoobella/17.png) center no-repeat;">
+			<div id="printID16" class="printText"> Cookie and Cream Franobe </div>
+		</div>
+		<div class="img-print" onmouseover="openText('printID17')" onmouseout="closeText('printID17')" style="background: url(./resource/Beverage/FranobeSmoobella/18.png) center no-repeat;">
+			<div id="printID17" class="printText"> Dark Chocolat Franobe </div>
+		</div><br>
+		<div class="img-print" onmouseover="openText('printID18')" onmouseout="closeText('printID18')" style="background: url(./resource/Beverage/FranobeSmoobella/19.png) center no-repeat;">
+			<div id="printID18" class="printText"> Srawberry Smoobella </div>
+		</div>
+		<div class="img-print" onmouseover="openText('printID19')" onmouseout="closeText('printID19')" style="background: url(./resource/Beverage/FranobeSmoobella/20.png) center no-repeat;">
+			<div id="printID19" class="printText"> Kiwi Smoobella </div>
+		</div>
+		<div class="img-print" onmouseover="openText('printID20')" onmouseout="closeText('printID20')" style="background: url(./resource/Beverage/FranobeSmoobella/21.png) center no-repeat;">
+			<div id="printID20" class="printText"> Mango Smoobella </div>
+		</div><br>
+		<div class="img-print" onmouseover="openText('printID21')" onmouseout="closeText('printID21')" style="background: url(./resource/Beverage/FranobeSmoobella/22.png) center no-repeat;">
+			<div id="printID21" class="printText"> Berry Berry Smoobella </div>
+		</div>
+		<div class="img-print" onmouseover="openText('printID22')" onmouseout="closeText('printID22')" style="background: url(./resource/Beverage/FranobeSmoobella/23.png) center no-repeat;">
+			<div id="printID22" class="printText"> Plain Yogur Smoobella </div>
+		</div>
+		<div class="img-print" onmouseover="openText('printID23')" onmouseout="closeText('printID23')" style="background: url(./resource/Beverage/FranobeSmoobella/24.png) center no-repeat;">
+			<div id="printID23" class="printText"> Strawberry Yogur Smoobella </div>
+		</div><br>
+		<div class="img-print" onmouseover="openText('printID24')" onmouseout="closeText('printID24')" style="background: url(./resource/Beverage/FranobeSmoobella/25.png) center no-repeat;">
+			<div id="printID24" class="printText"> Blueberry Yogur Smoobella </div>
+		</div>
+
+
+				
+		<!--</div>-->
+
+		<div class="footer" style="background-color: black; width: 100%; margin-right: 20%; margin-top: 5%;"></div>
+
+	</div>
+		
+</body>
+</html>

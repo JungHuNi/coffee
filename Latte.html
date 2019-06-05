@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Basic Latte</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="./css/coffeeBayCss.css">
+
+	<link href="https://fonts.googleapis.com/css?family=Noto+Serif&display=swap" rel="stylesheet"> <!-- Add font -->
+
+	<script type="text/javascript" src="./js/menu_util.js"></script>
+	<script type="text/javascript" src="./js/menuloader.js"></script>
+</head>
+<body>	
+	<!-- Wrapper box -->
+	<div class="wrapper">
+		<div class="menu">
+			<div class="menu-item" onclick="onChangeLocation('./mainpage.html')" style="background-image: url('./resource/LogoSlide/logo.PNG'); background-repeat: no-repeat; width: 30%;"></div>
+			<div class="menu-item menu-item-text" onclick="onChangeLocation('./NewMenu.html')">New Menu</div>
+			<div class="menu-item menu-item-text" onclick="onChangeLocation('./Coffee.html')">Coffee</div>
+			<div class="menu-item menu-item-text" onclick="onChangeLocation('./Latte.html')">Beverage</div>
+			<div class="menu-item menu-item-text" onclick="onChangeLocation('./Dessert.html')">Dessert</div>
+			<div class="menu-item menu-item-text" onclick="onChangeLocation('./MD.html')">MD</div>
+		</div>
+
+
+		<div class="sub-menu">
+			<!--<div class="Bsub-item" onclick="onChangeLocation('./Latte.html')">Basic Latte</div>
+			<div class="Bsub-item" onclick="onChangeLocation('./Smoobella.html')">Franobe/Smoobella</div>
+			<div class="Bsub-item" onclick="onChangeLocation('./etc.html')">Basic Latte</div>-->
+
+			<button class="curserPage" style="font-size: 2em" onclick="onChangeLocation('./Coffee.html')"> < </button>
+			<button class="Bsub-item" onclick="onChangeLocation('./Latte.html')" style="background-color: #FAEBC3"> Basic Latte </button> 
+			<button class="Bsub-item" onclick="onChangeLocation('./Smoobella.html')"> Franobe/Smoobella </button>
+			<button class="Bsub-item" onclick="onChangeLocation('./etc.html')" style="margin-right: 1%;"> Ade/Juice/Tea </button>
+			<button class="curserPage" style="font-size: 2em; margin-right: -2%;" onclick="onChangeLocation('./Smoobella.html')"> ></button>
+		</div>
+
+		<!--<div id="menu2">-->
+
+		<!-- <script type="text/javascript">
+			load('Beverage', '../html report/', 3
+				, 'Chocolate Latte.png'
+				, 'Iced Chocolate Latte.png'
+				, 'Green Tea Latte.png'
+				, 'Iced Green Tea Latte.png'
+				, 'Milk Tea.png'
+				, 'Iced Milk Tea.png'
+				, 'Sweet Potato Latte.png'
+				, 'Iced Sweet Potato Lattte.png'
+				, 'Red Velvet Latte.png'
+				, 'Iced Red Velvet Latte.png'
+				, 'Dark Chocolate Latte.png'
+				, 'Iced Dark Chocolate Latte.png'
+				);
+		</script> -->
+
+		<div class="img-print" onmouseover="openText('printID')" onmouseout="closeText('printID')" style="background: url(./resource/Beverage/BasicLatte/1.png) center no-repeat;">
+			<div id="printID" class="printText"> Chocolate Latte </div>
+		</div>
+		<div class="img-print" onmouseover="openText('printID1')" onmouseout="closeText('printID1')" style="background: url(./resource/Beverage/BasicLatte/2.png) center no-repeat;">
+			<div id="printID1" class="printText"> Iced Chocolate Latte </div>
+		</div>
+		<div class="img-print" onmouseover="openText('printID2')" onmouseout="closeText('printID2')" style="background: url(./resource/Beverage/BasicLatte/3.png) center no-repeat;">
+			<div id="printID2" class="printText"> Green Tea Latte </div>
+		</div><br>
+		<div class="img-print" onmouseover="openText('printID3')" onmouseout="closeText('printID3')" style="background: url(./resource/Beverage/BasicLatte/4.png) center no-repeat;">
+			<div id="printID3" class="printText"> Iced Green Tea Latte </div>
+		</div>
+		<div class="img-print" onmouseover="openText('printID4')" onmouseout="closeText('printID4')" style="background: url(./resource/Beverage/BasicLatte/5.png) center no-repeat;">
+			<div id="printID4" class="printText"> Milk Tea </div>
+		</div>
+		<div class="img-print" onmouseover="openText('printID5')" onmouseout="closeText('printID5')" style="background: url(./resource/Beverage/BasicLatte/6.png) center no-repeat;">
+			<div id="printID5" class="printText"> Iced Milk Tea </div>
+		</div><br>
+		<div class="img-print" onmouseover="openText('printID6')" onmouseout="closeText('printID6')" style="background: url(./resource/Beverage/BasicLatte/7.png) center no-repeat;">
+			<div id="printID6" class="printText"> Sweet Potato Latte </div>
+		</div>
+		<div class="img-print" onmouseover="openText('printID7')" onmouseout="closeText('printID7')" style="background: url(./resource/Beverage/BasicLatte/8.png) center no-repeat;">
+			<div id="printID7" class="printText"> Iced Sweet Potato Latte </div>
+		</div>
+		<div class="img-print" onmouseover="openText('printID8')" onmouseout="closeText('printID8')" style="background: url(./resource/Beverage/BasicLatte/9.png) center no-repeat;">
+			<div id="printID8" class="printText"> Red Velvet Latte </div>
+		</div><br>
+		<div class="img-print" onmouseover="openText('printID9')" onmouseout="closeText('printID9')" style="background: url(./resource/Beverage/BasicLatte/10.png) center no-repeat;">
+			<div id="printID9" class="printText"> Iced Red Velvet Latte </div>
+		</div>
+		<div class="img-print" onmouseover="openText('printID10')" onmouseout="closeText('printID10')" style="background: url(./resource/Beverage/BasicLatte/11.png) center no-repeat;">
+			<div id="printID10" class="printText"> Dark Chocolate Latte </div>
+		</div>
+		<div class="img-print" onmouseover="openText('printID11')" onmouseout="closeText('printID11')" style="background: url(./resource/Beverage/BasicLatte/12.png) center no-repeat;">
+			<div id="printID11" class="printText"> Iced Dark Chocoolate Latte </div>
+		</div><br>
+		
+
+		<!--</div>-->
+
+		<div class="footer" style="background-color: black; width: 100%; margin-right: 20%; margin-top: 5%;"></div>
+
+	</div>
+		
+</body>
+</html>

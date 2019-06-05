@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Coffee</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="./css/coffeeBayCss.css">
+
+	<link href="https://fonts.googleapis.com/css?family=Noto+Serif&display=swap" rel="stylesheet"> <!-- Add font -->
+
+	<script type="text/javascript" src="./js/menu_util.js"></script>
+	<script type="text/javascript" src="./js/menuloader.js"></script>
+</head>
+<body>	
+	<!-- Wrapper box -->
+	<div class="wrapper">
+		<div class="menu">
+			<div class="menu-item" onclick="onChangeLocation('./mainpage.html')" style="background-image: url('./resource/LogoSlide/logo.PNG'); background-repeat: no-repeat; width: 30%;"></div>
+			<div class="menu-item menu-item-text" onclick="onChangeLocation('./NewMenu.html')">New Menu</div>
+			<div class="menu-item menu-item-text" onclick="onChangeLocation('./Coffee.html')">Coffee</div>
+			<div class="menu-item menu-item-text" onclick="onChangeLocation('./Latte.html')">Beverage</div>
+			<div class="menu-item menu-item-text" onclick="onChangeLocation('./Dessert.html')">Dessert</div>
+			<div class="menu-item menu-item-text" onclick="onChangeLocation('./MD.html')">MD</div>
+		</div>
+
+		<div class="sub-menu">
+			<button class="curserPage" style="font-size: 2em; margin-left: 91%; margin-top: 14.9%;" onclick="onChangeLocation('./Latte.html')"> > </button>
+		</div>
+
+		<!--<div id="menu2">-->
+
+			<!--<script type="text/javascript">
+				load('Coffee', '../html report/', 3
+					, 'Espresso.png'
+					, 'Cafe Americano.png'
+					, 'Iced Cafe Americano.png'
+					, 'Caffe Latte.png'
+					, 'Iced Caffe Latte.png'
+					, 'Cappuccino.png'
+					, 'Iced Cappuccino.png'
+					, 'Vanilla Latte.png'
+					, 'Iced  Vanilla Latte.png'
+					, 'Hazelnut Latte.png'
+					, 'Iced Hazelnut Latte.png'
+					, 'Caramel Macchiato.png'
+					, 'Iced Caramel Macchiato.png'
+					, 'Cafe Mocha.png'
+					, 'Iced Cafe Mocha.png'
+					);
+			</script>-->
+
+		<div class="img-print" onmouseover="openText('printID')" onmouseout="closeText('printID')" style="background: url(./resource/Coffee/1.png) center no-repeat;"><div id="printID" class="printText"> Espresso </div></div>
+		<div class="img-print" onmouseover="openText('printID1')" onmouseout="closeText('printID1')" style="background: url(./resource/Coffee/2.png) center no-repeat;"><div id="printID1" class="printText"> Aemricano </div></div>
+		<div class="img-print" onmouseover="openText('printID2')" onmouseout="closeText('printID2')" style="background: url(./resource/Coffee/3.png) center no-repeat;"><div id="printID2" class="printText"> Iced Americano </div></div><br>
+		<div class="img-print" onmouseover="openText('printID4')" onmouseout="closeText('printID4')" style="background: url(./resource/Coffee/4.png) center no-repeat;"><div id="printID4" class="printText"> Caffe Latte </div></div>
+		<div class="img-print" onmouseover="openText('printID5')" onmouseout="closeText('printID5')" style="background: url(./resource/Coffee/5.png) center no-repeat;"><div id="printID5" class="printText"> Iced Caffe Latte </div></div>
+		<div class="img-print" onmouseover="openText('printID6')" onmouseout="closeText('printID6')" style="background: url(./resource/Coffee/6.png) center no-repeat;"><div id="printID6" class="printText"> Cappuccino </div></div><br>
+		<div class="img-print" onmouseover="openText('printID7')" onmouseout="closeText('printID7')" style="background: url(./resource/Coffee/7.png) center no-repeat;"><div id="printID7" class="printText"> Iced Cappuccino </div></div>
+		<div class="img-print" onmouseover="openText('printID8')" onmouseout="closeText('printID8')" style="background: url(./resource/Coffee/8.png) center no-repeat;"><div id="printID8" class="printText"> Vanilla Latte </div></div>
+		<div class="img-print" onmouseover="openText('printID9')" onmouseout="closeText('printID9')" style="background: url(./resource/Coffee/9.png) center no-repeat;"><div id="printID9" class="printText"> Iced Vanilla Latte </div></div><br>
+		<div class="img-print" onmouseover="openText('printID10')" onmouseout="closeText('printID10')" style="background: url(./resource/Coffee/10.png) center no-repeat;"><div id="printID10" class="printText"> Hazelnut Latte </div></div>
+		<div class="img-print" onmouseover="openText('printID11')" onmouseout="closeText('printID11')" style="background: url(./resource/Coffee/11.png) center no-repeat;"><div id="printID11" class="printText"> Iced Hazelnut Latte </div></div>
+		<div class="img-print" onmouseover="openText('printID12')" onmouseout="closeText('printID12')" style="background: url(./resource/Coffee/12.png) center no-repeat;"><div id="printID12" class="printText"> Caramel Macchiato </div></div><br>
+		<div class="img-print" onmouseover="openText('printID13')" onmouseout="closeText('printID13')" style="background: url(./resource/Coffee/13.png) center no-repeat;"><div id="printID13" class="printText"> Iced Caramel Macchiato </div></div>
+		<div class="img-print" onmouseover="openText('printID14')" onmouseout="closeText('printID14')" style="background: url(./resource/Coffee/14.png) center no-repeat;"><div id="printID14" class="printText"> Cafe Mocha </div></div>
+		<div class="img-print" onmouseover="openText('printID15')" onmouseout="closeText('printID15')" style="background: url(./resource/Coffee/15.png) center no-repeat;"><div id="printID15" class="printText"> Iced Cafe Mocha </div></div><br>
+
+		<div class="footer"></div>
+
+	</div>
+		
+</body>
+</html>

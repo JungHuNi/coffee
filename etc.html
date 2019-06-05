@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ade/Juice/Tea</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="./css/coffeeBayCss.css">
+
+	<link href="https://fonts.googleapis.com/css?family=Noto+Serif&display=swap" rel="stylesheet"> <!-- Add font -->
+
+	<script type="text/javascript" src="./js/menu_util.js"></script>
+	<script type="text/javascript" src="./js/menuloader.js"></script>
+</head>
+<body>	
+	<!-- Wrapper box -->
+	<div class="wrapper">
+		<div class="menu">
+			<div class="menu-item" onclick="onChangeLocation('./mainpage.html')" style="background-image: url('./resource/LogoSlide/logo.PNG'); background-repeat: no-repeat; width: 30%;"></div>
+			<div class="menu-item menu-item-text" onclick="onChangeLocation('./NewMenu.html')">New Menu</div>
+			<div class="menu-item menu-item-text" onclick="onChangeLocation('./Coffee.html')">Coffee</div>
+			<div class="menu-item menu-item-text" onclick="onChangeLocation('./Latte.html')">Beverage</div>
+			<div class="menu-item menu-item-text" onclick="onChangeLocation('./Dessert.html')">Dessert</div>
+			<div class="menu-item menu-item-text" onclick="onChangeLocation('./MD.html')">MD</div>
+		</div>
+
+		<div class="sub-menu">
+			<!--<div class="Bsub-item" onclick="onChangeLocation('./Latte.html')">Basic Latte</div>
+			<div class="Bsub-item" onclick="onChangeLocation('./Smoobella.html')">Franobe/Smoobella</div>
+			<div class="Bsub-item" onclick="onChangeLocation('./etc.html')">Basic Latte</div>-->
+
+			<button class="curserPage" style="font-size: 2em" onclick="onChangeLocation('./Smoobella.html')"> < </button>
+			<button class="Bsub-item" onclick="onChangeLocation('./Latte.html')"> Basic Latte </button> 
+			<button class="Bsub-item" onclick="onChangeLocation('./Smoobella.html')"> Franobe/Smoobella </button>
+			<button class="Bsub-item" onclick="onChangeLocation('./etc.html')" style="margin-right: 1%; background-color: #FAEBC3;"> Ade/Juice/Tea </button>
+			<button class="curserPage" style="font-size: 2em; margin-right: -2%;" onclick="onChangeLocation('./Dessert.html')"> > </button>
+		</div>
+
+		<!--<div id="menu2">-->
+
+		<!-- <script type="text/javascript">
+			load('Beverage', '../html report/', 3
+				, 'Citron Plum Tea.png'
+				, 'Cinnamon Ginger Tea.png'
+				, 'Pear Balloonflower Root Tea.png'
+				, 'Red Cleanse.png'
+				, 'Root Cleanse.png'
+				, 'Yellow Cleanse.png'
+				, 'Green Cleanse.png'
+				, 'Iced Tea.png'
+				, 'Citron Tea.png'
+				, 'Lemon Ade.png'
+				, 'Grapefruit Ade.png'
+				, 'Lime Ade.png'
+				, 'Earl Grey Classics.png'
+				, 'Camomile.png'
+				, 'Musket.png'
+				, 'Louis-Bos Sugar Plum.png'
+				, 'Green Tea.png'
+				, 'European Fruits.png'
+				, 'Peppermint.png'
+				, 'Assam Orange.png'
+				, 'Lemon Tea.png'
+				, 'Grape Fruit Tea.png'
+				, 'Lime Tea.png'
+				, 'Fresh Strawberry Juice.png'
+				, 'Fresh Kiwi Juice.png'
+				, 'Fresh Tomato Juice.png'
+				);
+		</script> -->
+
+
+		<div class="img-print" onmouseover="openText('printID')" onmouseout="closeText('printID')" style="background: url(./resource/Beverage/AdeJuiceTea/1.png) center no-repeat;">
+			<div id="printID" class="printText"> Citron Plum Tea </div>
+		</div>
+		<div class="img-print" onmouseover="openText('printID1')" onmouseout="closeText('printID1')" style="background: url(./resource/Beverage/AdeJuiceTea/2.png) center no-repeat;">
+			<div id="printID1" class="printText"> Cinnamon Ginger Tea </div>
+		</div>
+		<div class="img-print" onmouseover="openText('printID2')" onmouseout="closeText('printID2')" style="background: url(./resource/Beverage/AdeJuiceTea/3.png) center no-repeat;">
+			<div id="printID2" class="printText"> Pear Balloonflower Root Tea </div>
+		</div><br>
+		<div class="img-print" onmouseover="openText('printID3')" onmouseout="closeText('printID3')" style="background: url(./resource/Beverage/AdeJuiceTea/4.png) center no-repeat;">
+			<div id="printID3" class="printText"> Red Cleanse </div>
+		</div>
+		<div class="img-print" onmouseover="openText('printID4')" onmouseout="closeText('printID4')" style="background: url(./resource/Beverage/AdeJuiceTea/5.png) center no-repeat;">
+			<div id="printID4" class="printText"> Root Cleanse </div>
+		</div>
+		<div class="img-print" onmouseover="openText('printID5')" onmouseout="closeText('printID5')" style="background: url(./resource/Beverage/AdeJuiceTea/6.png) center no-repeat;">
+			<div id="printID5" class="printText"> Yellow Cleanse </div>
+		</div><br>
+		<div class="img-print" onmouseover="openText('printID6')" onmouseout="closeText('printID6')" style="background: url(./resource/Beverage/AdeJuiceTea/7.png) center no-repeat;">
+			<div id="printID6" class="printText"> Green Cleanse </div>
+		</div>
+		<div class="img-print" onmouseover="openText('printID7')" onmouseout="closeText('printID7')" style="background: url(./resource/Beverage/AdeJuiceTea/8.png) center no-repeat;">
+			<div id="printID7" class="printText"> Iced Tea </div>
+		</div>
+		<div class="img-print" onmouseover="openText('printID8')" onmouseout="closeText('printID8')" style="background: url(./resource/Beverage/AdeJuiceTea/9.png) center no-repeat;">
+			<div id="printID8" class="printText"> Citron Tea </div>
+		</div><br>
+		<div class="img-print" onmouseover="openText('printID9')" onmouseout="closeText('printID9')" style="background: url(./resource/Beverage/AdeJuiceTea/10.png) center no-repeat;">
+			<div id="printID9" class="printText"> Lemon Ade </div>
+		</div>
+		<div class="img-print" onmouseover="openText('printID10')" onmouseout="closeText('printID10')" style="background: url(./resource/Beverage/AdeJuiceTea/11.png) center no-repeat;">
+			<div id="printID10" class="printText"> Grapefruit Ade </div>
+		</div>
+		<div class="img-print" onmouseover="openText('printID11')" onmouseout="closeText('printID11')" style="background: url(./resource/Beverage/AdeJuiceTea/12.png) center no-repeat;">
+			<div id="printID11" class="printText"> Lime Ade </div>
+		</div><br>
+		<div class="img-print" onmouseover="openText('printID12')" onmouseout="closeText('printID12')" style="background: url(./resource/Beverage/AdeJuiceTea/13.png) center no-repeat;">
+			<div id="printID12" class="printText"> 얼그레이 클래식 </div>
+		</div>
+		<div class="img-print" onmouseover="openText('printID13')" onmouseout="closeText('printID13')" style="background: url(./resource/Beverage/AdeJuiceTea/14.png) center no-repeat;">
+			<div id="printID13" class="printText"> 캐모마일 </div>
+		</div>
+		<div class="img-print" onmouseover="openText('printID14')" onmouseout="closeText('printID14')" style="background: url(./resource/Beverage/AdeJuiceTea/15.png) center no-repeat;">
+			<div id="printID14" class="printText"> 머스켓 </div>
+		</div><br>
+		<div class="img-print" onmouseover="openText('printID15')" onmouseout="closeText('printID15')" style="background: url(./resource/Beverage/AdeJuiceTea/16.png) center no-repeat;">
+			<div id="printID15" class="printText"> 루이보스 슈가플럼 </div>
+		</div>
+		<div class="img-print" onmouseover="openText('printID16')" onmouseout="closeText('printID16')"style="background: url(./resource/Beverage/AdeJuiceTea/17.png) center no-repeat;">
+			<div id="printID16" class="printText"> Green Tea </div>
+		</div>
+		<div class="img-print" onmouseover="openText('printID17')" onmouseout="closeText('printID17')" style="background: url(./resource/Beverage/AdeJuiceTea/18.png) center no-repeat;">
+			<div id="printID17" class="printText"> European Fruits </div>
+		</div><br>
+		<div class="img-print" onmouseover="openText('printID18')" onmouseout="closeText('printID18')" style="background: url(./resource/Beverage/AdeJuiceTea/19.png) center no-repeat;">
+			<div id="printID18" class="printText"> Peppermint </div>
+		</div>
+		<div class="img-print" onmouseover="openText('printID19')" onmouseout="closeText('printID19')" style="background: url(./resource/Beverage/AdeJuiceTea/20.png) center no-repeat;">
+			<div id="printID19" class="printText"> 아쌈오렌지 </div>
+		</div>
+		<div class="img-print" onmouseover="openText('printID20')" onmouseout="closeText('printID20')" style="background: url(./resource/Beverage/AdeJuiceTea/21.png) center no-repeat;">
+			<div id="printID20" class="printText"> Lemon Tea </div>
+		</div><br>
+		<div class="img-print" onmouseover="openText('printID21')" onmouseout="closeText('printID21')" style="background: url(./resource/Beverage/AdeJuiceTea/22.png) center no-repeat;">
+			<div id="printID21" class="printText"> Grape Fruit Tea </div>
+		</div>
+		<div class="img-print" onmouseover="openText('printID22')" onmouseout="closeText('printID22')" style="background: url(./resource/Beverage/AdeJuiceTea/23.png) center no-repeat;">
+			<div id="printID22" class="printText"> Lime Tea </div>
+		</div>
+		<div class="img-print" onmouseover="openText('printID23')" onmouseout="closeText('printID23')" style="background: url(./resource/Beverage/AdeJuiceTea/24.png) center no-repeat;">
+			<div id="printID23" class="printText"> Fresh Strawberry Juice </div>
+		</div><br>
+		<div class="img-print" onmouseover="openText('printID24')" onmouseout="closeText('printID24')" style="background: url(./resource/Beverage/AdeJuiceTea/25.png) center no-repeat;">
+			<div id="printID24" class="printText"> Fresh Kiwi Juice </div>
+		</div>
+		<div class="img-print" onmouseover="openText('printID25')" onmouseout="closeText('printID25')" style="background: url(./resource/Beverage/AdeJuiceTea/26.png) center no-repeat;">
+			<div id="printID25" class="printText"> Fresh Tomato Juice </div>
+		</div>
+
+				
+		<!--</div>-->
+
+		<div class="footer" style="background-color: black; width: 100%; margin-right: 20%; margin-top: 5%;"></div>
+
+	</div>
+		
+</body>
+</html>

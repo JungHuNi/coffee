@@ -22,4 +22,18 @@ function loadImg(brCount) {
 
 function getPath(dirPath, fileName) {
 	return dirPath + "/" + fileName;
+} 
+
+
+
+function openText(idMyDiv){
+     let objDiv = document.getElementById(idMyDiv);
+     //if(objDiv.style.display == "hidden"){ objDiv.style.visibility = "visible"; }
+      //else if(objDiv.style.visibility == "visible"){ objDiv.style.visibility = "hidden"; }
+     objDiv.style.visibility = "visible";
+}
+
+function closeText(idMyDiv){
+	let objDiv = document.getElementById(idMyDiv);
+	objDiv.style.visibility = "hidden";
 }
