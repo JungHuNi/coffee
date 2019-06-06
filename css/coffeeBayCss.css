@@ -46,14 +46,15 @@ body {
 
 .sub-menu{
 	display: inline-block;
-	border: 1px solid black;
-	background-color: #CDA27D;
+	/*border: 1px solid black;
+	background-color: #CDA27D;*/
 	width: 70%;
 	height: 20%;
 	margin-left: 15%; 
 	margin-top: 5%;
 	color: black;
 	border-radius: 5px;
+	text-align: center;
 }
 
 .img-print{
@@ -102,7 +103,7 @@ body {
 	border: 1px solid white;
 	text-align: center; 
 	font-size: 1.7em; 
-	margin-top: 15%;
+	margin-top: 5%;
 	display: inline-block;
 	cursor: pointer;
 	/*margin-left: 1%;
@@ -145,10 +146,18 @@ body {
 	background-color: white;
 	margin-right: 1%;
 	border-radius: 30px;
+	cursor: pointer;
 }
 .curserPage:active{
 	background-color: #FAEBC3;
 }
+
+.icon{
+	width: 5%;
+	height: 60%;
+	display: inline-block;
+}
+
 
 
 
